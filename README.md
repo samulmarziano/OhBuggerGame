@@ -1,4 +1,4 @@
-Oh, Bugger! Version 1.0 04/11/2018
+# Oh, Bugger! Version 1.0 04/11/2018
 
 Frogger-type Game project for Udacity
 
