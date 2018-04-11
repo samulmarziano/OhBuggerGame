@@ -83,6 +83,12 @@ Player.prototype.update = function(dt) {
   });
 };
 
+// Reset function
+Player.prototype.reset = function() {
+  this.x = 200;
+  this.y = 400;
+};
+
 Player.prototype.render = function() {
   ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
@@ -90,12 +96,6 @@ Player.prototype.render = function() {
 // handleInput() method
 Player.prototype.handleInput = function(e) {
   this.pressedKey = e;
-};
-
-// Reset function
-Player.prototype.reset = function() {
-  this.x = 200;
-  this.y = 400;
 };
 
 // Now instantiate your objects.
