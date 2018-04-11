@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+/* HEADER */
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 55px;
+}
+
+h2 {
+  font-family: 'Gaegu', cursive;
+  font-size: 27px;
+  color: #224d93;
+}
+
+h3 {
+  font-family: 'Stylish', sans-serif;
+  font-size: 25px;
+  color: #229227;
+}
+
+/* WIN or LOSE MSG */
+#message {
+  display: none;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: 'Gaegu', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+  background: linear-gradient(160deg, rgb(156, 172, 216, 0.97) 0%, rgb(184, 202, 249, 0.97) 100%);
+  border-radius: 10px;
+  padding: 15% 5px;
+}
