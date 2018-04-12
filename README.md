@@ -4,11 +4,16 @@ Frogger-type Game project for Udacity
 
 ## Table of Contents
 
+* [Installation](#installation)
 * [Instructions](#instructions)
 * [BuiltWith](#builtwith)
 * [Contributing](#contributing)
 * [Author](#author)
 * [Versioning](#versioning)
+
+## Installation
+
+To install, download all of the files.  Open the index.html file in a browser to play the game.
 
 ## Instructions
 
